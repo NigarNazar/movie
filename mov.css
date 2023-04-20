@@ -1,0 +1,256 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     text-decoration: none !important;
+     background: linear-gradient(to right, #8395a7, #CAD3C8);
+ }
+
+ .header {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     padding: 100px;
+
+ }
+
+ .card-form {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     padding: 100px 0 20px 0;
+     border-bottom: 1px solid;
+     margin-bottom: 20px;
+ }
+
+ .btn-button {
+     padding: 5px;
+     margin: 10px;
+     border-radius: 6px;
+     outline: none;
+     background-color: #192a56;
+     box-shadow: none;
+     color: #fff;
+ }
+
+ .card-show {
+     display: flex;
+     justify-content: start;
+     align-items: start;
+ }
+
+ input {
+     width: 300px;
+     margin-bottom: 10px;
+     padding: 5px;
+     outline: none;
+     border-radius: 5px;
+     border-color: #ccc;
+     max-width: 100%;
+ }
+
+ .card-from2 {
+     width: 600px;
+     max-width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(#353b48, #2f3640);
+ }
+
+ .cards-start {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     text-align: center;
+     background-color: #c23616;
+     width: 600px;
+ }
+
+ .cards-start h3 {
+     color: #000;
+     font-size: 18px;
+     letter-spacing: 1px;
+     font-weight: 500;
+     padding: 5px;
+ }
+
+ .cards-movie {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+
+ .films img {
+     width: 100%;
+     padding: 10px;
+     max-width: 100%;
+
+ }
+
+ .films span {
+     display: block;
+     color: #fff;
+     padding: 30px;
+ }
+
+ .films a {
+     text-decoration: none;
+     background-color: #c23616;
+     padding: 5px 10px;
+     border-radius: 6px;
+     color: #fff;
+     letter-spacing: .8px;
+     font-weight: 400;
+     margin-right: 10px;
+ }
+
+ .clear {
+     display: flex;
+     justify-content: start;
+     align-items: start;
+     padding-left: 28%;
+ }
+
+ .clear a {
+     text-decoration: none;
+     background-color: #192a56;
+     padding: 5px 10px;
+     border-radius: 6px;
+     color: #fff;
+     letter-spacing: .8px;
+     font-weight: 400;
+ }
+
+
+ @media(max-width:821px) and (min-width:500px) {
+     .header {
+         padding: 40px;
+     }
+
+     .cards-start {
+         width: 400px;
+     }
+
+     .cards-start h3 {
+         font-size: 16px;
+     }
+
+     .card-from2 {
+         width: 400px;
+     }
+
+     .films a {
+         padding: 5px;
+         font-size: 14px;
+     }
+
+     .films span {
+         font-size: 14px;
+     }
+ }
+
+ @media(max-width:500px) {
+     .header {
+         padding: 40px;
+     }
+
+     .cards-start {
+         width: 400px;
+     }
+
+     .cards-start h3 {
+         font-size: 16px;
+     }
+
+     .card-from2 {
+         width: 400px;
+     }
+
+     .films a {
+         padding: 5px;
+         font-size: 14px;
+     }
+
+     .films span {
+         font-size: 14px;
+     }
+ }
+
+ @media(max-width:440px) {
+     .header {
+         padding: 30px;
+     }
+
+     .cards-start {
+         width: 300px;
+     }
+
+     .cards-start h3 {
+         font-size: 16px;
+     }
+
+     .card-from2 {
+         width: 300px;
+     }
+
+     .films a {
+         padding: 5px;
+         font-size: 14px;
+     }
+
+     .films span {
+         font-size: 14px;
+     }
+ }
+
+
+ @media(max-width:280px) {
+     .header {
+         padding: 20px;
+     }
+
+     .cards-start {
+         width: 240px;
+     }
+
+     input {
+         width: 250px;
+     }
+
+     .cards-start h3 {
+         font-size: 16px;
+     }
+
+     .card-from2 {
+         width: 300px;
+     }
+
+     .films a {
+         padding: 5px;
+         font-size: 14px;
+     }
+
+     .films img {
+         padding-left: 5px;
+     }
+
+     .films span {
+         font-size: 14px;
+         padding: 20px;
+     }
+     .clear{
+        padding-left: 0 !important;
+     }
+ }
